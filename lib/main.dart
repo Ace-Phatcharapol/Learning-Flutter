@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
                 padding: const EdgeInsets.all(8.0),
                 decoration: BoxDecoration(
-                    color: Colors.yellow,
+                    color: Colors.blue,
                     borderRadius: BorderRadius.circular(10)),
                 height: 100,
                 child: Row(
@@ -64,6 +64,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ],
                 ),
+              ),
+              SizedBox(
+                height: 10,
               ),
               Container(
                 padding: const EdgeInsets.all(8.0),
@@ -94,6 +97,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
               ),
+              SizedBox(
+                height: 10,
+              ),
               Container(
                 padding: const EdgeInsets.all(8.0),
                 decoration: BoxDecoration(
@@ -112,6 +118,37 @@ class _MyHomePageState extends State<MyHomePage> {
                     Expanded(
                       child: Text(
                         "30000",
+                        style: TextStyle(
+                            fontSize: 24,
+                            color: Colors.white,
+                            fontWeight: FontWeight.w700),
+                        textAlign: TextAlign.right,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Container(
+                padding: const EdgeInsets.all(8.0),
+                decoration: BoxDecoration(
+                    color: Colors.orange, borderRadius: BorderRadius.circular(10)),
+                height: 100,
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
+                      "ค้างชำระ ",
+                      style: TextStyle(
+                          fontSize: 24,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w700),
+                    ),
+                    Expanded(
+                      child: Text(
+                        "5000",
                         style: TextStyle(
                             fontSize: 24,
                             color: Colors.white,
