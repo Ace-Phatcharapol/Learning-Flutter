@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
               SizedBox(height: 5,),
               MoneyBox("รายรับ", 60000, Colors.green, 100),
               SizedBox(height: 5,),
-              MoneyBox("รายจ่าย", 30000, Colors.red, 100),
+              MoneyBox("รายจ่าย", 3000000.55, Colors.red, 100),
               SizedBox(height: 5,),
               MoneyBox("ค้างชำระ", 5000, Colors.orange, 100),
             ],
