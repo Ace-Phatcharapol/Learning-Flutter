@@ -13,8 +13,8 @@ Download Link: https://developer.android.com/studio
 
 <strong style="font-size: 20px !important;">Example screen: The first project</strong><br>
 
-![Example screen](Example%1.png)
+![Example Image](Example%201.png)
 
 <strong style="font-size: 20px !important;">Example screen: The second project</strong><br>
 
-![Example screen](Example%2.png)
+![Example Image](Example%202.png)
